@@ -1,0 +1,58 @@
+*{
+      font-family: "Roboto", sans-serif;
+}
+.cabecalho {
+    padding: 20px 0;
+}
+
+.caixa {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.card {
+    box-shadow: 5px 9px 9px -1px rgba(0,0,0,0.3);
+    border-radius: 8px;
+    width: 200%;
+    height: auto;
+    max-width: 200px;
+    padding: auto;
+}
+
+.card p{
+    font-size: 18px;
+    font-weight: 800;
+    margin: 0;
+    padding: 8px;
+}
+.card span{
+    font-size: 14px;
+    font-weight: 400;
+    padding: 8px;
+}
+.card img{
+     border-radius: 8px;
+}
+     
+#personagens {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-top: 61px;
+}
+.button {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+#carregarmais{
+    font-style: normal;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 8px;  
+} 
+.imagem {
+    width: 200%;
+    height: auto;
+   }

@@ -1,5 +1,5 @@
 async function Chamarpersonagens(){
-    const url="https:/rickandmortyapi.com/api/character"
+    const url="https:/rickandmortyapi.com/api/character/"
     const response = await fetch(url)
     const result = await response.json()
     console.log(result)
@@ -14,7 +14,13 @@ async function Chamarpersonagens(){
     nome.textContent =element.name
     especie.textContent = element.species
     img.setAttribute("src",element.image)
-    card.appendChild(img)
+   
+
+
+    card.addEventListener("click", function(){
+      window.location.href = `index2.HTML?/chave=${id}`;
+    })
+     card.appendChild(img)
     card.appendChild(nome)
     card.appendChild(especie)
     personagens.appendChild(card)

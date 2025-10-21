@@ -17,6 +17,7 @@
     height: auto;
     max-width: 350px;
     padding: auto;
+    cursor: pointer;
 }
 
 .card p{
@@ -56,3 +57,19 @@
     width: 100%;
     height: auto;
    }
+#filtroNome{
+   width: 300px;
+   padding: 10px;
+   border-radius: 8px;
+   border: 1px solid #ccc;
+   font-size: 16px;
+   outline: none;
+   transition: 0.3s;
+
+}
+.input-container{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+
+}
